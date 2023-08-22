@@ -32,3 +32,4 @@ let numero1 = 4;
 let numero2 = 6;
 let resultado = numero1 <= numero2;
 console.log(resultado)
+

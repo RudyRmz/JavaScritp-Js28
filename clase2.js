@@ -50,18 +50,51 @@ if(password === 'cacahuate' && authFacial && (email === 'email@.com' || userName
     console.log('usuario no valido')
 }
 
+////////1.Verificar si un número es positivo, negativo o cero.
+const numero = -6;
+let valor = 'Positivo'
 
-const puntuacion = 90;
-let calificaion = 'camisa';
-
-if (puntuacion === 90){
-    calificaion = 'A'
-}else if (puntuacion === 80){
-    calificaion = 'B'
-}else if (puntuacion === 70){
-    calificaion = 'C'
-}else if (puntuacion === 60){
-    calificaion = 'D'
-} else if (puntuacion < 50){
-    calificaion ='Estudia mas'
+if (numero < 0){
+    valor = 'Negativo'
+} else if (numero === 0){
+    valor = '0'
 }
+
+console.log ('El valor es ' + valor)
+
+///////2.Determinar si un número es par o impar.
+
+const number = 3;
+let tipo = 'par';
+    
+    if(number%2==0){
+        tipo = 'par'
+    }else{
+        tipo = 'impar'
+    }
+
+console.log('El numero es ' + tipo)
+
+////////3.Calificar un examen en base a la puntuación.
+//ejemplo:
+//si es mayor o igual a 90 es 'A'
+//si es mayor o igual a 80 es 'B'
+//si es mayor o igual a 70 es 'C'
+//si es mayor o igual a 60 es 'D'
+
+let puntuacion = 61;
+let calificacion = 'A';
+
+if (puntuacion >= 90){
+    calificacion = 'A'
+}else if (puntuacion >= 80){
+    calificacion = 'B'
+}else if (puntuacion >=  70){
+    calificacion = 'C'
+}else if (puntuacion >=  60){
+    calificacion = 'D'
+} else if (puntuacion < 60){
+    calificacion ='Estudia mas'
+}
+
+console.log('Tu calificacion es: ' + calificacion)
