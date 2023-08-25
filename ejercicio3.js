@@ -6,7 +6,6 @@
 const persona ={
     nombre: 'Rudy',
 }
-
 console.log('Hola ' + persona.nombre)
 
 
