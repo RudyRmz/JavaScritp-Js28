@@ -46,14 +46,14 @@ for(let index = invitados2.length -1; index >= 0; index-- ){
 
 
 //////////////////////////
--crear un arreglo
--crear una funcion
--ejecutar y enviarle los argumentos a la funcion
--crear una constante que funcione como un contador inciandolo en 0
--iterar el arreglo del parametro
--en cada iteracion evaluar si el elemento solicitado es igual al del arreglo
--entonces si la evaluacion es verdadera se le suma +1 al contador
--retornar el contador
+// -crear un arreglo
+// -crear una funcion
+// -ejecutar y enviarle los argumentos a la funcion
+// -crear una constante que funcione como un contador inciandolo en 0
+// -iterar el arreglo del parametro
+// -en cada iteracion evaluar si el elemento solicitado es igual al del arreglo
+// -entonces si la evaluacion es verdadera se le suma +1 al contador
+// -retornar el contador
 
 const numberList = [1,3,5,7,5,7,5, 5];
 const invitados3 = [
