@@ -7,7 +7,7 @@ setInterval(() => {
     let segundo = fecha.getSeconds();
 
     console.log(hora + ':' + minuto + ':' + segundo);
-})
+},1000)
 
 /////////////
 function RELOJ () {
@@ -30,3 +30,11 @@ function RELOJ () {
 };
 
 setInterval(RELOJ,1000);
+
+
+//////////////////
+const fechaFunction1 = () => new Date(Date.now()).toLocaleTimeString('it-IT');
+
+setInterval(() =>{
+    console.log(fechaFunction1());
+}, 1000);
